@@ -37,7 +37,7 @@
 .name-task, .input-box {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .box-wrapper {
@@ -133,7 +133,7 @@ input,button {
 }
 
 .str-with-task .input-box {
-  width: 226px
+  width: 226px;
 }
 
 .btn-img {
@@ -148,18 +148,18 @@ input,button {
 
 /* Completed */
 #completed-tasks .name-task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .str-with-task .input-box {
-  display: none
+  display: none;
 }
 
 .edit-mode .input-box {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .name-task {
