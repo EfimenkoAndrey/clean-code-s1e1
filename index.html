@@ -9,46 +9,46 @@
     <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower-matrix.jpg">
       <a
-          class="more-info"
+          class="header__more-info"
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
       </a>
     </header>
     <main class="main">
-      <section class="add-tasks">
-        <h1 class="section-title section-title_add-styles">Add Item</h1>
-        <div class="box-wrapper">
-          <input id="new-task" class="input-box" type="text">
-          <button class="btn">Add</button>
+      <section class="section-add">
+        <h1 class="title section-add__title">Add Item</h1>
+        <div class="section-add__box-wrapper">
+          <input class="input-box section-add__input-box" type="text">
+          <button class="btn section-add__btn">Add</button>
         </div>
       </section>
-      <section class="todo">
-        <h2 class="section-title">Todo</h2>
-        <ul id="incomplete-tasks">
-	        <li class="str-with-task">
-	          <input class="checkbox" type="checkbox">
-	          <label class="name-task">Pay Bills</label>
-	          <input type="text" class="input-box">
-	          <button class="btn btn-edit">Edit</button>
-	          <button class="btn btn-delete"><img class="btn-img" src="./remove.svg" alt="remove.svg"></button>
+      <section class="section-tasks">
+        <h2 class="title section-tasks__title">Todo</h2>
+        <ul class="section-tasks__incomplete-tasks">
+	        <li class="str-with-task section-tasks__str-with-task">
+	          <input class="checkbox section-tasks__checkbox" type="checkbox">
+	          <label class="name-task section-tasks__name-task">Pay Bills</label>
+	          <input type="text" class="input-box section-tasks__input-box">
+	          <button class="btn btn-edit section-tasks__btn-edit">Edit</button>
+	          <button class="btn btn-delete section-tasks__btn-delete"><img class="btn-img" src="./remove.svg" alt="remove.svg"></button>
 	        </li>
-	        <li class="str-with-task edit-mode">
-	          <input class="checkbox" type="checkbox">
-	          <label class="name-task">Go Shopping</label>
-	          <input type="text" value="Go Shopping" class="input-box">
+	        <li class="str-with-task edit-mode section-tasks__str-with-task">
+	          <input class="checkbox section-tasks__checkbox" type="checkbox">
+	          <label class="name-task section-tasks__name-task">Go Shopping</label>
+	          <input type="text" value="Go Shopping" class="input-box section-tasks__input-box">
 	          <button class="btn btn-edit">Save</button>
 	          <button class="btn btn-delete"><img class="btn-img" src="./remove.svg" alt="remove.svg"></button>
 	        </li>
 	      </ul>
       </section>
-      <section class="tasks-completed">
-      	<h2 class="section-title">Completed</h2>
-	      <ul id="completed-tasks">
-	        <li class="str-with-task">
-	          <input class="checkbox" type="checkbox" checked>
-	          <label class="name-task">See the Doctor</label>
-	          <input type="text" class="input-box">
-	          <button class="btn btn-edit">Edit</button>
-	          <button class="btn btn-delete"><img class="btn-img" src="./remove.svg" alt="remove.svg"></button>
+      <section class="section-completed">
+      	<h2 class="title section-completed__title">Completed</h2>
+	      <ul class="section-completed__completed-tasks">
+	        <li class="str-with-task section-completed__str-with-task">
+	          <input class="checkbox section-completed__checkbox" type="checkbox" checked>
+	          <label class="name-task section-completed__name-task">See the Doctor</label>
+	          <input type="text" class="input-box section-completed__input-box">
+	          <button class="btn btn-edit section-completed__btn-edit">Edit</button>
+	          <button class="btn btn-delete section-completed__btn-delete"><img class="btn-img" src="./remove.svg" alt="remove.svg"></button>
 	        </li>
 	      </ul>
       </section>
